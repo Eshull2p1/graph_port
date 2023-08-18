@@ -1,0 +1,75 @@
+.shape {
+  margin: 10px;
+  display: flex;
+  height: 730px;
+}
+.blockStatus {
+  background-color: #abcdef;
+  width: 40%;
+  margin: 10px;
+  justify-items: stretch;
+  align-items: stretch;
+  text-align: center;
+  border-radius: 10px;
+  border: 6px solid #6a9acb;
+  box-shadow: -1px -1px 20px 3px rgba(0, 0, 0, 0.33);
+}
+.information {
+  display: flex;
+  margin: 1px;
+  text-align: left;
+}
+.blockGraph {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(81, 90, 135, 1) 16%,
+    rgba(0, 44, 255, 1) 53%,
+    rgba(153, 160, 193, 1) 72%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  margin: 10px;
+  width: 60%;
+  justify-items: stretch;
+  align-items: stretch;
+  text-align: center;
+  border-radius: 10px;
+  border: 6px solid #c3c2d9;
+  box-shadow: -1px -1px 20px 10px rgba(0, 0, 0, 0.33);
+}
+.graph {
+  margin: 10px;
+}
+.passion {
+  background-color: #ffffff;
+  border: 6px solid #cdcdcd;
+  box-shadow: -1px -1px 20px 3px rgb(139, 185, 245);
+  padding: 20px;
+  padding-bottom: 10px;
+  margin: 20px;
+  font-weight: 550;
+  border-radius: 10px;
+}
+.graph2 {
+  background-color: aliceblue;
+}
+.impro {
+  border-radius: 6px;
+  border: 8px solid rgba(153, 160, 193, 1);
+  box-shadow: -1px -1px 20px 3px rgba(0, 0, 0, 0.33);
+}
+.blockinfo{
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 1px;
+  font-size: 15px;
+}
+.contact{
+  border-radius: 6px;
+  border: 6px solid #c3c2d9;
+  box-shadow: -1px -1px 20px 3px rgba(0, 0, 0, 0.33);
+  background-color: #ffffff;
+  margin: 80px;
+  font-size: 15px;
+}
